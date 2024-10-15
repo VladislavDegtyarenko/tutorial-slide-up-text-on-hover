@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.fancy-button {
+  background-color: #1b9aaa;
+  color: #fff;
+
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 1rem #0000002a;
+}
+
+.fancy-button-text-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.fancy-button-char-container {
+  position: relative;
+}
+
+.fancy-button-char-container span {
+  display: inline-block;
+  white-space: pre;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.fancy-button-char-container span:last-child {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+}
